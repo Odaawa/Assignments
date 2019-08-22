@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Using DOM</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div id="heading">
+		<header>
+	    <h1>Day Finder!</h1>
+	    <p>So we just work with finding dates, give us a little bit of info and we'll work out the rest for you.</p>
+	    </header>
+	</div>
+    <div id="content">
+	    <main>
+	    	<p>
+			Okay so here's all you have to do, just fill in the date, month and year of birth of whoever it was and we'd tell you what day it was that wonderful person was born.
+		   	</p>
+		    <form name="case">
+		    	<label for="name">Name</label>
+		    	<input type="text" name="u_name" class="u_entry">
+		    	<br>
+		    	<label for="date">Date</label>
+		    	<input type="number" name="date" min="1" max="31" class="u_entry">
+		    	<br>
+		    	<label for="month">Month</label>
+		    	<input type="" name="month" class="u_entry">
+		    	<br>
+		    	<label for="year">Year</label>
+		    	<input type="number" name="year" min="1900" max="2050" class="u_entry">
+		    	<br>
+		    	<input type="button" name="do" value="Abracadabra" id="do">
+		    	<input type="button" name="clear" value="" onclick="clear()"> 
+		    </form>
+	    </main>
+	</div>
+	<div id="space"></div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

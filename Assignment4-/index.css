@@ -1,0 +1,25 @@
+body{
+	background-color:#f6f6f6;
+	background: url(back_img.jpg) no-repeat center center fixed; 
+	background-size: cover;
+	font-size: 20px;
+	font-family: Garamond;
+	text-align: center;
+	color: black;
+	font-weight: bolder;
+}
+
+header{
+	position: relative;
+}
+
+#content{
+	margin-left: 10%;
+	margin-right: 10%;
+	padding:5%;
+}
+
+.u_entry{
+	padding: 10px;
+	margin: 15px;
+}
